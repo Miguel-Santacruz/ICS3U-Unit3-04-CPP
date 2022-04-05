@@ -20,13 +20,12 @@ int main() {
     std::cout << "" << std::endl;
     if (number > 0) {
         std::cout << number << " is possitive!";
+    } else if (number < 0) {
+        std::cout << number << " is negative!";
     } else {
-        if (number < 0) {
-            std::cout << number << " is negative!";
-        } else {
-            std::cout << number << " is zero!";
-        }
+        std::cout << number << " is zero!";
     }
+
 
     std::cout << "\nDone" << std::endl;
 }
